@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/text_bgc"
+    tools:context=".AboutActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="393dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/about_me"
+        android:textAlignment="center"
+        android:textColor="#E80417"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="393dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4sp"
+        android:layout_marginTop="35dp"
+        android:paddingLeft="5dp"
+        android:fontFamily="times new roman"
+        android:paddingTop="15dp"
+        android:text=" ~ Hi, I am Deepa Rawat. Currently,i am pursuing Masters in Computer Application from Indira Gandhi Delhi Technical University.I am here to learn and grow in my professinal journey to become a software developer. I can best described as an hardworking and a dedicated learner who loves to explore nature and is carzy for food"
+        android:textColor="#7B1FA2"
+        android:textSize="18sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingLeft="5dp"
+        android:fontFamily="times new roman"
+        android:layout_marginTop="35dp"
+        android:textStyle="bold"
+        android:text="@string/skilled_in_c_c_python_and_r_i_aspire_to_become_an_software_developer_other_than_that_i_am_learning_android_development_and_skilled_in_front_end_web_development"
+        android:layout_marginStart="4sp"
+        android:textColor="#7B1FA2"
+        android:textSize="18sp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="393dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4sp"
+        android:layout_marginTop="35dp"
+        android:fontFamily="times new roman"
+        android:paddingLeft="5dp"
+        android:paddingTop="15dp"
+        android:text="@string/i_have_demonstrated_my_team_management_and_leadership_skills_while_being_part_of_republic_day_prade_in_2015_at_rajpath_and_i_also_have_done_and_attained_ncc_c_certificate_and_i_have_also_done_all_india_vayu_sainik_camp"
+        android:textColor="#7B1FA2"
+        android:textSize="18sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+
+
+    <TextView
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="3dp"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="35dp"
+        android:textStyle="bold|italic|normal"
+        android:text="@string/reach_out_to_me_at_rawatdeepa334_gmail_com"
+        android:layout_marginStart="4sp"
+        android:textColor="#EC1717"
+        android:textSize="18sp">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/Resumebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="9dp"
+        app:backgroundTint="@null"
+        android:background="#9907A8"
+        android:text="RESUME">
+
+    </Button>
+
+
+
+
+
+
+
+</LinearLayout>
+
+
+

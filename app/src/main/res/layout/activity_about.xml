@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/text_bgc"
+    tools:context=".AboutActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="@string/about_me"
+        android:textAlignment="center"
+        android:textColor="@color/teal_700"
+        android:textSize="40sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:fontFamily="sans-serif-thin"
+            android:layout_marginTop="45dp"
+            android:text="@string/hi_i_am_deepa_rawat_currently_i_am_pursuing_masters_in_computer_application_from_indira_gandhi_delhi_technical_university_i_am_here_to_learn_and_grow_in_my_professinal_journey_to_become_a_software_developer_i_can_best_described_as_an_hardworking_and_a_dedicated_learner_who_loves_to_explore_nature_and_is_carzy_about_food"
+            android:layout_marginStart="4sp"
+            android:textColor="#D5EC554A"
+            android:textSize="20sp">
+
+        </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="25dp"
+        android:fontFamily="sans-serif-thin"
+        android:layout_marginTop="45dp"
+        android:text="@string/skilled_in_c_c_python_and_r_i_aspire_to_become_an_software_developer_other_than_that_i_am_learning_android_development_and_skilled_in_front_end_web_development"
+        android:layout_marginStart="4sp"
+        android:textColor="#7B1FA2"
+        android:textSize="20sp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="28dp"
+        android:fontFamily="sans-serif-thin"
+        android:layout_marginTop="45dp"
+        android:text="@string/i_have_demonstrated_my_team_management_and_leadership_skills_while_being_part_of_republic_day_prade_in_2015_at_rajpath_and_i_also_have_done_and_attained_ncc_c_certificate_and_i_have_also_done_all_india_vayu_sainik_camp"
+        android:layout_marginStart="4sp"
+        android:textColor="#D5EC554A"
+        android:textSize="20sp">
+
+    </TextView>
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="30dp"
+        android:fontFamily="sans-serif-thin"
+        android:layout_marginTop="45dp"
+        android:text="@string/reach_out_to_me_at_rawatdeepa334_gmail_com"
+        android:layout_marginStart="4sp"
+        android:textColor="#D5EC554A"
+        android:textSize="20sp">
+
+    </TextView>
+
+
+</LinearLayout>
+
+
+
+
